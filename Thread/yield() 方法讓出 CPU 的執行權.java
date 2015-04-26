@@ -21,7 +21,7 @@ class Thread3A implements Runnable{
 	public void run(){
 		int i;
 		for(i=0;i<10;i++){
-			System.out.println("�Ұ�");
+			System.out.println("±Ò°Ê");
 			c.yield();		
 		}
 	}

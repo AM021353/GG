@@ -22,7 +22,7 @@ class Thread01 extends Thread{
 	public void run(){
 		int i;
 		for(i=0;i<10;i++)
-			System.out.println("°õ¦æºü±Ò°Ê");
+			System.out.println("Â°ÃµÂ¦Ã¦ÂºÃ¼Â±Ã’Â°ÃŠ");
 		try{
 			this.sleep(1000);
 		}

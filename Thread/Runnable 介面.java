@@ -23,7 +23,7 @@ class Thread1A implements Runnable{
 	public void run(){
 		int i;
 		for(i=0;i<10;i++){
-			System.out.println("�Ұ�");
+			System.out.println("±Ò°Ê");
 			try{
 				c.sleep(1000);
 			}catch(Exception e){}

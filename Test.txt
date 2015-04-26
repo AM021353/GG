@@ -13,6 +13,8 @@ public class FileRead {
 			b.close();
 		}catch(FileNotFoundException e){
 			System.out.println(e);
+		}catch(IOException e){
+			System.out.println(e);
 		}
 	}
 
